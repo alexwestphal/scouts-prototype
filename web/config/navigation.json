@@ -1,0 +1,42 @@
+[
+    {
+        "url": "/donate",
+        "title": "DONATE",
+        "items": [
+            { "url": "/donate_now", "title": "Donate Now" },
+            { "url": "/ways_to_give", "title": "Ways To Give" },
+            { "url": "/sponsorship", "title": "Sponsorship" }
+        ]
+    },
+    {
+        "url": "/news",
+        "title": "NEWS",
+        "items": [
+            { "url": "/happening", "title": "What's Happening?" }
+        ]
+    },
+    {
+        "url": "/programme",
+        "title": "PROGRAMME",
+        "items": [
+            { "url": "/programme/keas", "title": "Kea Scouts", "extra": "(Ages 6-8)" },
+            { "url": "/programme/cubs", "title": "Cub Scouts", "extra": "(Ages 8-10)" },
+            { "url": "/programme/scouts", "title": "Scouts", "extra": "(Ages 10-14)" },
+            { "url": "/programme/venturers", "title": "Venturer Scouts", "extra": "(Ages 14-18)" },
+            { "url": "/programme/rovers", "title": "Rover Scouts", "extra": "(Ages 18-26)" },
+            { "url": "/programme/adventure", "title": "Adventure Plus", "extra": "" }
+        ]
+    },
+    {
+        "url": "/about",
+        "title": "ABOUT",
+        "items": [
+            { "url": "/values", "title": "Values" },
+            { "url": "/faq", "title": "FAQ" },
+            { "url": "/history", "title": "History" },
+            { "url": "/management", "title": "Management" },
+            { "url": "/partners", "title": "Partners" },
+            { "url": "/volunteer", "title": "Volunteer" }
+        ]
+    }
+]

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-nz" ng-app="scouts">
+<head>
+    <title>Scouts New Zealand</title>
+    <!--<base href="/scouts/">-->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/scouts.css">
+
+    <!--[if IE]--><script src="js/lib/json3.min.js"></script><!-- -->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/angular.min.js"></script>
+
+    <script src="js/scouts.js"></script>
+    <script src="js/scouts.cmpt.js"></script>
+</head>
+<body>
+    <div id="background"></div>
+
+    <div class="container" id="main">
+        <topmenu></topmenu>
+        <mainmenu></mainmenu>
+
+        <div class="row">
+            <div class="span9">
+                <div id="content" ng-view></div>
+            </div>
+            <div class="span3">
+                <navbox></navbox>
+                <joinbox></joinbox>
+            </div>
+        </div>
+
+
+        <div id="footer">
+            <div class="phone pull-left">0800 SCOUTS</div>
+            <div class="copyright pull-right hidden-phone">Copyright &copy; Redcloud Development Ltd.</div>
+        </div>
+    </div>
+
+
+</body>
+</html>

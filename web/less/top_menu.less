@@ -1,0 +1,37 @@
+@import "scouts.less";
+
+div#top_menu {
+  position: absolute;
+  top: -81px; right: 0px;
+  opacity: 0.8;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  .primary;
+
+  a#login {
+    color: black;
+    float:left;
+    padding: 6px 10px;
+    margin: 2px 5px 2px 0px;
+    border-right: 1px solid #C0C0C0;
+
+    &:hover {
+      color: @scout-purple;
+      text-decoration: none;
+    }
+  }
+
+  a.social {
+    background: url('../img/social.png') 0 0 no-repeat;
+    color: #f5f2e6;
+    display: block;
+    float: left;
+    margin: 10px 3px 2px;
+    padding: 5px 10px;
+  }
+
+  a#facebook { background-position: 0   0px; }
+  a#twitter  { background-position: 0 -64px; }
+  a#linkedin { background-position: 0 -32px; }
+  a#youtube  { background-position: 0 -96px; }
+}

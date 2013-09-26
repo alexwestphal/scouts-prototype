@@ -1,0 +1,16 @@
+<div id="menu">
+    <a href="/" title="Home Page"><img id="logo" src="img/logo.gif" alt="Logo"/></a>
+    <ul class="hidden-phone hidden-print">
+        <li ng-repeat="menu in nav.menus" class="menuitem">
+            <a href="{{menu.url}}" class="dropdown-launch">{{menu.title}}</a>
+            <ul class="dropdown">
+                <li ng-repeat="item in menu.items">
+                    <a href="{{item.url}}">{{item.title}} <span class="extra">{{item.extra}}</span></a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <ul class="visible-phone">
+        <li><a>Menu <i class="icon-th-large"></i></a></li>
+    </ul>
+</div>

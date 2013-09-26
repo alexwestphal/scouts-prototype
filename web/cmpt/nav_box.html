@@ -1,0 +1,8 @@
+<div id="nav_box" class="hidden-phone hidden-print" ng-show="nav.exposed">
+    <h4>Navigation</h4>
+    <ul>
+        <li ng-repeat="item in nav.exposed.items">
+            <a href="{{item.url}}">{{item.title}} <span class="extra">{{item.extra}}</span></a>
+        </li>
+    </ul>
+</div>

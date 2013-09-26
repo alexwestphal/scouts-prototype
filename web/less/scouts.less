@@ -1,0 +1,62 @@
+/**
+ *
+ */
+
+// Standard Colours
+@scout-purple: rgb(106, 44, 145);
+@scout-secondary: rgb(184, 179, 8);
+@keas-orange: rgb(243,144,29);
+@cubs-yellow: rgb(255,207,1);
+@scouts-green: rgb(0,112,60);
+@venturers-maroon: rgb(152,0,46);
+@rovers-red: rgb(238,52,36);
+@leaders-blue: rgb(0,85,150);
+
+
+// Darkened Text Colours
+.kea-text      { color: darken(@keas-orange, 10%); }
+.cub-text      { color: darken(@cubs-yellow, 15%); }
+.scout-text    { color: darken(@scouts-green, 10%); }
+.venturer-text { color: darken(@venturers-maroon, 10%); }
+.rover-text    { color: darken(@rovers-red, 10%); }
+
+// Mixins
+
+.border-radius(@radius) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
+
+.border-top-radius(@radius) {
+  border-top-left-radius: @radius;
+  border-top-right-radius: @radius;
+  -moz-border-radius-topleft: @radius;
+  -moz-border-radius-topright: @radius;
+  -webkit-border-top-left-radius: @radius;
+  -webkit-border-top-right-radius: @radius;
+}
+
+.border-bottom-radius(@radius) {
+  border-bottom-left-radius: @radius;
+  border-bottom-right-radius: @radius;
+  -moz-border-radius-bottomleft: @radius;
+  -moz-border-radius-bottomright: @radius;
+  -webkit-border-bottom-left-radius: @radius;
+  -webkit-border-bottom-right-radius: @radius;
+}
+
+.border-left-radius(@radius) {
+  border-top-left-radius: @radius;
+  border-bootom-left-radius: @radius;
+  -moz-border-radius-topleft: @radius;
+  -moz-border-radius-bottomleft: @radius;
+  -webkit-border-top-left-radius: @radius;
+  -webkit-border-bottom-left-radius: @radius;
+}
+
+
+.primary {
+  background-color: #F0F0F0;
+  box-shadow: 0px 0px 3px 0px @scout-purple;
+}
